@@ -6,7 +6,7 @@
         <v-row>
           <v-col cols="5">
             <div style="position: relative" class="mt-16">
-              <h1 class="text-grey">Hola</h1>
+              <h1 class="text-grey">Hola!!</h1>
               <h1 class="text-white">Soy Francisco Valdez</h1>
               <span class="text-grey">Backend Developer</span><br />
 
@@ -78,69 +78,13 @@
             </v-col>
           </v-row>
         </div>
-      </v-col>
-      <div class="text-center mt-4">
-        <h2>What we Do</h2>
-        <div style="width: 120px; margin: 0 auto">
-          <v-slider
-            v-model="slider2"
-            color="yellow"
-            label="track-color"
-          ></v-slider>
-        </div>
-      </div>
-      <v-col cols="12" class="padd" id="portfolio">
-        <div class="first" id="project">
-          <v-row>
-            <v-col cols="12">
-              <div class="child">
-                <v-btn
-                  icon="fas fa-laptop"
-                  color="#FBDF7E"
-                  class="text-white"
-                ></v-btn>
-                <h3 class="ml-3 mt-4">Web Design</h3>
-                <p class="text-grey ml-3 mt-4 text-caption">
-                  Lorem, ipsum dolor sit amet <br />consectetur adipisicing
-                  <br />consectetur adipis
-                </p>
-              </div>
-              <div class="child">
-                <v-btn
-                  icon="fas fa-mobile-alt"
-                  color="#FBDF7E"
-                  class="text-white"
-                ></v-btn>
-                <h3 class="ml-3 mt-4">App Design</h3>
-                <p class="text-grey ml-3 mt-4 text-caption">
-                  Lorem, ipsum dolor sit amet <br />consectetur adipisicing
-                  <br />consectetur adipis
-                </p>
-              </div>
-              <div class="child">
-                <v-btn
-                  icon="fas fa-camera"
-                  color="#FBDF7E"
-                  class="text-white"
-                ></v-btn>
-                <h3 class="ml-3 mt-4">Photography</h3>
-                <p class="text-grey ml-3 mt-4 text-caption">
-                  Lorem, ipsum dolor sit amet <br />consectetur adipisicing
-                  <br />consectetur adipis
-                </p>
-              </div>
-            </v-col>
-          </v-row>
-          <v-divider></v-divider>
-        </div>
-      </v-col>
+      </v-col>      
+   
       <v-col cols="12" sm="12" id="services">
         <div class="d-flex justify-center mb-6">
-          <v-btn color="#FBDF7E" class="mr-2">All</v-btn>
-          <v-btn class="mr-2" variant="tonal">Web Design</v-btn>
-          <v-btn class="mr-2" variant="tonal">Front Design</v-btn>
-          <v-btn class="mr-2" variant="tonal"> Photography</v-btn>
-          <v-btn variant="tonal"> Illustration</v-btn>
+        
+          <v-btn class="mr-2" variant="tonal"> Certificaciones</v-btn>
+        
         </div>
       </v-col>
       <v-col cols="12" class="imgHover">
@@ -160,84 +104,16 @@
           </template>
         </v-row>
       </v-col>
-      <v-col cols="12" sm="12">
-        <div class="d-flex justify-center mb-6">
-          <v-btn color="#FBDF7E" class="mt-4">Load More</v-btn>
-        </div>
-      </v-col>
-      <v-col cols="12" id="page">
-        <div class="pre">
-          <v-row>
-            <v-col cols="12" sm="4">
-              <v-card class="mx-auto" max-width="344" height="">
-                <v-img src="i10.jpg" height="200px" cover></v-img>
+      
+              
+            
+    
 
-                <v-card-title> We provide you the best </v-card-title>
-
-                <v-card-subtitle>
-                  By AAE IdeaPro | 06 Sep 2022
-                </v-card-subtitle>
-                <v-card-text>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                  rem saepe sapiente deleniti, odio non laborum fuga.
-                </v-card-text>
-              </v-card>
-            </v-col>
-            <v-col cols="12" sm="4">
-              <v-card class="mx-auto" max-width="344" height="">
-                <v-img src="i11.jpg" height="200px" cover></v-img>
-
-                <v-card-title> We provide you the best </v-card-title>
-
-                <v-card-subtitle>
-                  By AAE IdeaPro | 06 Sep 2022
-                </v-card-subtitle>
-                <v-card-text>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                  rem saepe sapiente deleniti, odio non laborum fuga.
-                </v-card-text>
-              </v-card>
-            </v-col>
-            <v-col cols="12" sm="4">
-              <v-card class="mx-auto" max-width="344" height="">
-                <v-img src="i12.jpg" height="200px" cover></v-img>
-
-                <v-card-title> We provide you the best </v-card-title>
-
-                <v-card-subtitle>
-                  By AAE IdeaPro | 06 Sep 2022
-                </v-card-subtitle>
-                <v-card-text>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                  rem saepe sapiente deleniti, odio non laborum fuga.
-                </v-card-text>
-              </v-card>
-            </v-col>
-          </v-row>
-        </div>
-      </v-col>
-      <v-col cols="12" id="biog">
-        <div class="hire">
-          <v-row>
-            <v-col cols="12" sm="8">
-              <h1 class="mt-9">Hire me for your awesome project</h1>
-              <p class="text-grey">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-                itaque, eaque molestiae deleniti, earum voluptate eos id dicta
-                at, blanditiis
-              </p>
-            </v-col>
-            <v-col cols="12" sm="4">
-              <v-btn color="#FBDF7E" class="mt-15">Hire Me</v-btn>
-            </v-col>
-          </v-row>
-        </div>
-      </v-col>
       <v-col cols="12" sm="12" class="px-16" id="contact">
         <v-row>
           <v-col cols="12" sm="4">
             <div class="child">
-              <h1>Contact info.</h1>
+              <h1>Informacion de Contacto</h1>
               <v-btn
                 icon="fas fa-map-marker-alt"
                 color=""
@@ -245,7 +121,7 @@
                 variant="outlined"
               ></v-btn
               ><br />
-              <span class="text-caption">Your Street SYO,yourArea Dream </span
+              <span class="text-caption">Ciudad Mendoza, Argentina </span
               ><br />
               <v-btn
                 icon="fas fa-phone-alt"
@@ -254,8 +130,8 @@
                 variant="outlined"
               ></v-btn
               ><br />
-              <span class="text-caption">00235 - 6521 </span> <br />
-              <span class="text-caption">00235 - 6521 </span> <br />
+              <span class="text-caption">+54 261 - 000271 </span> <br />
+              <span class="text-caption">+54 261 - 000274 </span> <br />
               <v-btn
                 icon="fas fa-envelope"
                 color=""
@@ -263,41 +139,39 @@
                 variant="outlined"
               ></v-btn
               ><br />
-              <span class="text-caption">aaeideapro@gmail.com </span> <br />
-              <span class="text-caption">aaeideapro@gmail.com </span> <br />
+              <span class="text-caption">ruben_mza@hotmail.com </span> <br />
+              <span class="text-caption">robledooogustavooo@gmail.com </span> <br />
             </div>
           </v-col>
           <v-col cols="12" sm="8">
-            <h1 class="mt-8">Send your message</h1>
+            <h1 class="mt-8">Enviar Mensaje</h1>
             <v-divider></v-divider>
             <span class="text-caption"
-              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-              fugiat officia, odio eaque exercitationem libero nesciunt placeat,
-              repellat obcaecati sed tenetur! Est labore aliquam amet
-              consequatur necessitatibus fugit obcaecati facilis!</span
+              >Contáctame para llevar tus proyectos al siguiente nivel. Con experiencia en desarrollo backend, Java, Spring, y
+              soluciones en la nube, te ofrezco escalabilidad, seguridad y eficiencia en cada solución.</span
             >
             <v-row class="mt-10">
               <v-col cols="12" sm="6">
                 <v-text-field
-                  label="Name"
+                  label="Nombre"
                   persistent-hint
                   variant="outlined"
                 ></v-text-field>
               </v-col>
               <v-col cols="12" sm="6">
                 <v-text-field
-                  label="Phone No"
+                  label="Teléfono"
                   persistent-hint
                   variant="outlined"
                 ></v-text-field>
               </v-col>
             </v-row>
             <v-textarea
-              label="Message"
+              label="Mensaje"
               persistent-hint
               variant="outlined"
             ></v-textarea>
-            <v-btn color="#FBDF7E" class="mt-2">Submit Now</v-btn>
+            <v-btn color="#FBDF7E" class="mt-2">Enviar</v-btn>
           </v-col>
         </v-row>
       </v-col>
@@ -322,23 +196,15 @@ export default defineComponent({
 
       items: [
         {
-          img: "i3.jpg",
+          img: "todocode-certificate.png",
         },
         {
-          img: "i4.jpg",
+          img: "aws-certificate-ia.png",
         },
         {
-          img: "i5.jpg",
+          img: "googlecloid-certificate.png",
         },
-        {
-          img: "i6.jpeg",
-        },
-        {
-          img: "i9.jpg",
-        },
-        {
-          img: "i8.jpg",
-        },
+        
       ],
     };
   },
@@ -421,7 +287,7 @@ export default defineComponent({
   background-color: #e9e9e9;
   margin-top: -24px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .head {
     height: auto;
     padding: 8px;
@@ -483,7 +349,7 @@ export default defineComponent({
     max-height: 200px;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   /* Footer adjustments */
   .footer {
     padding: 16px;
