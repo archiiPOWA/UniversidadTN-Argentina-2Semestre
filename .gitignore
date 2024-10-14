@@ -21,3 +21,6 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+/Banco/BancoUniversidad/nbproject/private/
+/Banco/BancoUniversidad/build/
+/Banco/BancoUniversidad/dist/
