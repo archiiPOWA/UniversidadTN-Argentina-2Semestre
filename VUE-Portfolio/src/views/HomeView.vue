@@ -34,7 +34,7 @@
           </v-col>
           <v-col cols="5">
             <div style="position: relative; z-index: 9999" class="mt-16">
-              <v-img src="i1.png" contain max-height="300"></v-img>
+              <v-img src="asd.jpeg" contain max-height="300"></v-img>
             </div>
           </v-col>
         </v-row>
@@ -44,7 +44,7 @@
           <v-row>
             <v-col cols="12" sm="6">
               <div class="egg">
-                <v-img src="i2.png" max-height="300" class=""></v-img>
+                <v-img src="aaa.jpeg" max-height="300" class=""></v-img>
               </div>
             </v-col>
             <v-col cols="12" sm="6">
